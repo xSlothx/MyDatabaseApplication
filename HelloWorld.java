@@ -7,7 +7,6 @@ private class HelloWorld {
 
       Scanner scanner = new Scanner(System.in);
       String sentence = scanner.nextLine();
-String sentence2 = scanner.nextLine();
-      
+String sentence2 = scanner.nextLine();   
    }
 }
