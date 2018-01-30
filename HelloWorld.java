@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 private class HelloWorld {
-   private static void main(String[] args) {
+   private static void main(final String[] args) {
       // Prints "Hello, World" in the terminal window.
       System.out.println("Hello, World");
 
