@@ -1,10 +1,11 @@
 import java.util.Scanner;
 /**
-@author Mathew Phan
+@author Mathew Phan.
 */
 private class HelloWorld {
    /**
-   This is the main program
+   This is the main program.
+   @args is empty.
    */
    private static void main(final String[] args) {
       // Prints "Hello, World" in the terminal window.
