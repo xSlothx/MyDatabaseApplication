@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /**
-@Author Mathew Phan
+@author Mathew Phan
 */
 private class HelloWorld {
    /**
