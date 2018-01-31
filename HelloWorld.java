@@ -2,7 +2,7 @@ import java.util.Scanner;
 /**
 @author Mathew Phan.
 */
-private class HelloWorld {
+public class HelloWorld {
    /**
    This is the main program.
    @param args is empty.
