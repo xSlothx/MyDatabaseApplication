@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /**
-@author Mathew Phan.
+@author Mathew Phan. This is the Toad Developer modification
 */
 public class HelloWorld {
    /**
