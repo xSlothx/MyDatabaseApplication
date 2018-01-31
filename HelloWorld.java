@@ -5,7 +5,7 @@ import java.util.Scanner;
 private class HelloWorld {
    /**
    This is the main program.
-   @params args is empty.
+   @param args is empty.
    */
    private static void main(final String[] args) {
       // Prints "Hello, World" in the terminal window.
