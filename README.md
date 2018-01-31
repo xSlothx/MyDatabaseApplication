@@ -1,3 +1,3 @@
 # MyDatabaseApplication
 
-Hello People of the World!
+Hello People of Earth!
