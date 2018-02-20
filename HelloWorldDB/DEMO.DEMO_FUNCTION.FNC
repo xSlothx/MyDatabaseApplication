@@ -7,7 +7,7 @@ tmpVar NUMBER;
    REVISIONS:
    Ver        Date        Author           Description
    ---------  ----------  ---------------  ------------------------------------
-   3.0        7/2/2017   DEMO              1. Created this function.
+   5.0        7/2/2017   DEMO              1. Created this function.
 
    NOTES:
 
