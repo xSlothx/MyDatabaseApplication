@@ -8,7 +8,7 @@ tmpVar NUMBER;
    Ver        Date        Author           Description
    ---------  ----------  ---------------  ------------------------------------
 
-   1.3        7/19/2018   Mathew Phan              1. Created this function.
+   1.4        7/20/2018   Mathew Phan              1. Created this function.
 
 
    NOTES:
