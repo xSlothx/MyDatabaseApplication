@@ -1,5 +1,7 @@
-CREATE OR REPLACE FUNCTION DEMO.DEMO_FUNCTION RETURN NUMBER IS
-tmpVar NUMBER;
+CREATE OR REPLACE FUNCTION DEMO.DEMO_FUNCTION
+    RETURN NUMBER
+IS
+    tmpVar   NUMBER;
 /******************************************************************************
    NAME:       DEMO_FUNCTION
    PURPOSE:
@@ -22,13 +24,15 @@ tmpVar NUMBER;
 
 ******************************************************************************/
 BEGIN
-   tmpVar := 0;
-   RETURN tmpVar;
-   EXCEPTION
-     WHEN NO_DATA_FOUND THEN
-       RETURN NULL;
-     WHEN OTHERS THEN
-       -- Consider logging the error and then re-raise
-       RAISE;
+    tmpVar := 0;
+    RETURN tmpVar;
+EXCEPTION
+    WHEN NO_DATA_FOUND
+    THEN
+        NULL;
+    WHEN OTHERS
+    THEN
+        -- Consider logging the error and then re-raise
+        RAISE;
 END DEMO_FUNCTION;
 /
