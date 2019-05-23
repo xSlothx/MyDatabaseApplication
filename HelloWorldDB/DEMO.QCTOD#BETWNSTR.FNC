@@ -35,7 +35,7 @@ BEGIN
          v_numchars := v_numchars - 2;
       END IF;
 
-      RETURN (/*SUBSTR (string_in, v_start, v_numchars)*/'Shoes');
+      RETURN (SUBSTR (string_in, v_start, v_numchars));
    END IF;
 END qctod#betwnstr;
 /
