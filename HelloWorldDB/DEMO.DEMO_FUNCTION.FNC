@@ -10,7 +10,7 @@ IS
    Ver        Date        Author           Description
    ---------  ----------  ---------------  ------------------------------------
 
-   2.7        05/25/2019   Mathew Phan             1. Created this function.
+   2.7        05/25/2019   Mathew Phan             1. Broke this function.
 
 
    NOTES:
