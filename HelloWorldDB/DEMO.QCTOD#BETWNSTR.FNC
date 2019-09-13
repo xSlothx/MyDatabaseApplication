@@ -4,7 +4,6 @@ CREATE OR REPLACE FUNCTION DEMO.qctod#betwnstr (string_in      IN VARCHAR2
                                          , inclusive_in   IN BOOLEAN := TRUE)
    RETURN VARCHAR2
 IS
---mat addes a comment
    v_start      PLS_INTEGER;
    v_numchars   PLS_INTEGER;
 BEGIN
