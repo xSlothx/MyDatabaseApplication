@@ -10,7 +10,7 @@ IS
    Ver        Date        Author           Description
    ---------  ----------  ---------------  ------------------------------------
 
-   5.0        08/03/2020   Mathew Phan             1. Fix this function.
+   5.1        08/03/2020   Mathew Phan             1. Fix this function.
 
 
    NOTES:
@@ -29,7 +29,7 @@ BEGIN
 EXCEPTION
     WHEN NO_DATA_FOUND
     THEN
-        NULL;
+        RETURN NULL;
     WHEN OTHERS
     THEN
         -- Consider logging the error and then re-raise
