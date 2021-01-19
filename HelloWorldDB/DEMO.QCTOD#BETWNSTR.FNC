@@ -13,7 +13,7 @@ BEGIN
       OR (start_in < 0 AND end_in > start_in)
       OR (start_in > 0 AND end_in < start_in)
    THEN
-      RETURN NULL;
+      NULL;
    ELSE
       IF start_in < 0
       THEN
