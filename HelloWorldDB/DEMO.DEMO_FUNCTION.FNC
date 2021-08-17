@@ -10,7 +10,7 @@ IS
    Ver        Date        Author           Description
    ---------  ----------  ---------------  ------------------------------------
 
-   6.4        7/8/2021   Mathew Phan             1. Fix this function.
+   6.5        7/8/2021   Mathew Phan             1. Fix this function.
 
 
    NOTES:
