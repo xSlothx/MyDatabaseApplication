@@ -29,7 +29,7 @@ BEGIN
 EXCEPTION
     WHEN NO_DATA_FOUND
     THEN
-        RETURN NULL;
+        NULL;
     WHEN OTHERS 
         THEN
         -- Consider logging the error and then re-raise
