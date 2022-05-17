@@ -7,7 +7,7 @@ tmpVar NUMBER;
    REVISIONS:
    Ver        Date        Author           Description
    ---------  ----------  ---------------  ------------------------------------
-   1.7        5/17/2022   Mathew Phan              1. Created this function.
+   1.6        5/17/2022   Mathew Phan              1. Created this function.
 
    NOTES:
 
@@ -21,6 +21,8 @@ tmpVar NUMBER;
 ******************************************************************************/
 BEGIN
    tmpVar := 0;
+   GOTO my_label;
+   <<my_label>>
    RETURN tmpVar;
    EXCEPTION
      WHEN NO_DATA_FOUND THEN
