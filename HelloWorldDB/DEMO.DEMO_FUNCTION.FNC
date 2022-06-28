@@ -7,7 +7,7 @@ tmpVar NUMBER;
    REVISIONS:
    Ver        Date        Author           Description
    ---------  ----------  ---------------  ------------------------------------
-   1.7        5/17/2022   Mathew Phan              1. Created this function.
+   1.8        5/17/2022   Mathew Phan              1. Created this function.
 
    NOTES:
 
