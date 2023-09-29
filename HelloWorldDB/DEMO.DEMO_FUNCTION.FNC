@@ -20,9 +20,7 @@ tmpVar NUMBER;
 
 ******************************************************************************/
 BEGIN
-   tmpVar := 0;
-    GOTO my_label;
-   <<my_label>>    
+   tmpVar := 0;  
    RETURN tmpVar;
    EXCEPTION
      WHEN NO_DATA_FOUND THEN
